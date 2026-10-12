@@ -1,0 +1,39 @@
+.wrapper {
+  padding: 24px;
+  border-radius: var(--radius);
+  background: #f0f1f3;
+}
+
+.page {
+  padding: 28px;
+  background: var(--color-surface);
+  box-shadow: 0 1px 4px rgb(0 0 0 / 15%);
+}
+
+.heading {
+  margin: 0 0 16px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #8fb4d6;
+  text-align: center;
+  font-size: 22px;
+  color: #1d4f7c;
+}
+
+.subheading {
+  margin: 16px 0 8px;
+  font-size: 15px;
+  color: #1d4f7c;
+}
+
+.text {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.figure {
+  height: 120px;
+  margin: 16px 0;
+  border: 1px dashed #8fb4d6;
+  border-radius: var(--radius);
+}

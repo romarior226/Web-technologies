@@ -1,0 +1,28 @@
+:root {
+  --color-primary: #1a73e8;
+  --color-primary-hover: #1765cc;
+  --color-text: #1f2328;
+  --color-muted: #6b7280;
+  --color-border: #e5e7eb;
+  --color-surface: #ffffff;
+  --color-sidebar: #f5f9fc;
+  --color-nav-active: #dbe8fb;
+  --color-tag-bg: #e8f0fb;
+  --color-tag-text: #2b5ea8;
+  --radius: 8px;
+
+  font-family: Inter, 'Segoe UI', Roboto, Arial, sans-serif;
+  color: var(--color-text);
+  background: var(--color-surface);
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
